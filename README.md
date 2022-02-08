@@ -24,12 +24,12 @@ touch .env
 ```
 5. Configure `.env` with this environment
 ```
-FIGMA_TOKEN=<Your Figma TOKEN>
-FIGMA_ID=<Your Figma File ID>
+FIGMA_TOKEN=321227-f302de1c-9339-49b3-901b-561d48ceb228
+FIGMA_ID=Hzqg2Mi3qcRbYVa5MsYy27
 FIGMA_API=https://api.figma.com
 OUTPUT_MAIN=output/main.json
 ```
-6. Start your program
+6. Start your program / Fetch newest change on figma
 ```sh
 npm run start
 ```
