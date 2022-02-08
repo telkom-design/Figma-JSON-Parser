@@ -1,0 +1,25 @@
+{
+  "name": "figma-format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run clean && node index.js && rimraf output/main.json",
+    "clean": "rimraf output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.0",
+    "exec-sh": "^0.4.0",
+    "json-beautifier": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  }
+}
