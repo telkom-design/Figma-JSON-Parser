@@ -33,3 +33,10 @@ OUTPUT_MAIN=output/main.json
 ```sh
 npm run start
 ```
+
+## What's Next?
+
+You can saw output file at output directory
+```sh
+cd output
+```
